@@ -1,0 +1,124 @@
+/*---Global Styles START---*/
+
+body {
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin: 0 auto;
+    width: 960px;
+    color: #4a4a4a;
+}
+
+li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+ul li {
+    display: inline;
+}
+
+.flex,
+article {
+    display: flex;
+}
+
+.container {
+    margin-left: 24px;
+}
+
+.highlight {
+    background-color: #d8d8d8;
+}
+
+a {
+    text-decoration: none;
+    color: #4a90e2;
+}
+
+/*---Global Styles END---*/
+
+/*---Header START---*/
+
+header {
+    display: flex;
+    height: 64px;
+}
+
+.colmar {
+    font-weight: bold;
+}
+
+.company img {
+    height: 32px;
+}
+
+.company {
+    align-items: center;
+    flex-grow: 1;
+}
+
+nav {
+    margin-right: 24px;
+}
+
+/*---Header END---*/
+
+/*---Banner START---*/
+
+.banner img {
+    width: 60%;
+    margin: 32px 24px 32px 0;
+}
+
+button {
+    background-color: #4a4a4a;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 8px;
+}
+
+/*---Banner END---*/
+
+/*---Top Content START---*/
+
+.top-left {
+    border-right: 1px solid #e0e2e2;
+    width: 60%;
+    margin-top: 32px;
+}
+
+.top-left img {
+    width: 80%;
+}
+    
+.top-right {
+    flex-direction: column;
+}
+
+.top-right img {
+    margin: 16px;
+}
+
+.top-right article {
+    width: 40%;
+    margin-top: 16px;
+}
+
+.info {
+    width: 65%;
+}
+
+.attribution {
+    font-size: 0.75em;
+    margin: 32px 0;
+}
+
+/*---Top Content END---*/
+
+/*---Middle Content START---*/
